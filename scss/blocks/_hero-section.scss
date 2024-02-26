@@ -1,0 +1,31 @@
+.hero-section {
+  background-image: url("../images/herobg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 310px) calc(50% + 130px);
+  padding-left: 220px;
+}
+
+.hero__inner {
+  display: flex;
+  column-gap: 291px;
+}
+
+.hero__title-wrapper {
+  margin-top: 110px;
+  width: 411px;
+}
+
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 22px;
+  color: var(--main-text-color);
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 64px;
+}
+.hero__desc {
+  margin-top: 0;
+  color: var(--main-desc-color);
+  font-size: 16px;
+  line-height: 20px;
+}

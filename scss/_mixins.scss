@@ -1,0 +1,19 @@
+@mixin unstyled-list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+@mixin link-unstyled {
+  text-decoration-line: none;
+}
+@mixin site-all-btn {
+  border: none;
+  background-color: transparent;
+  width: 9px;
+  height: 17px;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,116 @@
+.site-footer {
+  padding-top: 54px;
+  padding-bottom: 23px;
+  background-color: #f3f3f3;
+  border: 1px solid #ebebeb;
+}
+.footer-info__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: top;
+  -ms-flex-align: top;
+  align-items: top;
+}
+.site-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-column-gap: 67px;
+  -moz-column-gap: 67px;
+  column-gap: 67px;
+}
+.site-page__list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.page-item__link {
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  color: var(--main-text-color);
+  font-size: var(--main-font-size);
+  font-weight: var(--main-font-weight);
+}
+.footer-logo:hover {
+  opacity: var(--main-hover-opacity);
+}
+.footer-logo:active {
+  opacity: var(--main-active-opacity);
+}
+.footer-adres__time {
+  width: 176px;
+  margin-right: 100px;
+}
+.footer-address {
+  font-style: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: top;
+  -ms-flex-align: top;
+  align-items: top;
+}
+.footer-adres__link {
+  margin-right: 0;
+  display: block;
+  font-style: normal;
+}
+.number-list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.page-item {
+  margin-bottom: 14px;
+}
+.page-item__link:hover {
+  color: #ffbd54;
+}
+.page-item__link:active {
+  color: #333333b3;
+}
+.times {
+  margin-left: 25px;
+}
+
+.space-item {
+  margin-left: 30px;
+}
+.footer-locate {
+  margin-right: 112px;
+  padding-left: 0;
+  width: 157px;
+  display: block;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  color: var(--main-text-color);
+  font-size: var(--main-font-size);
+  font-weight: var(--main-font-weight);
+}
+.site-mini-element {
+  display: block;
+  text-align: end;
+  margin-top: 14px;
+  color: #5c5c5c;
+  font-size: 14px;
+}.example {
+  display: -ms-grid;
+  display: grid;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+  background: linear-gradient(to bottom, white, black);
+}

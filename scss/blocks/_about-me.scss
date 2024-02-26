@@ -1,0 +1,44 @@
+.about-me {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.about__desc-wrapper {
+  border: 1px solid #F3F3F3;
+  background: #FFF;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  column-gap: 114px;
+}
+
+.about__desc {
+  color: var(--main-desc-color);
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.style-text {
+  color: #ffbd54;
+}
+.about__dog-desc-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.dog-desc-wrapper {
+  width: 494px;
+}
+.about__dog-desc {
+  color: var(--main-desc-color);
+  font-size: 16px;
+  line-height: 20px;
+}
+.dog-style {
+  color: #78c0de;
+}
+
+.home-desc-wrapper {
+  width: 557px;
+}

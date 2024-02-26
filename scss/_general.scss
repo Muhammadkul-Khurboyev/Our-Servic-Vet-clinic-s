@@ -1,0 +1,31 @@
+* ,
+*::before ,
+*::after {
+  box-sizing: border-box;
+}
+
+
+html {
+  height: 100%;
+}
+
+
+body {
+  font-family: "Futura PT", sans-serif;
+  font-weight: normal;
+  background-image: url(../images/bg.svg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.site-main {
+  flex-grow: 1;
+}

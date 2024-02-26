@@ -1,0 +1,186 @@
+.start-header {
+  background-color: #f9f8f8;
+}
+.header-start__adres {
+  padding: 11px 0px 9px;
+  font-style: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.adres-link::before {
+  background-image: url("../images/houseicon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 25px;
+  content: "";
+}
+.header-adres__list {
+  @include unstyled-list;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+}
+.adres-link {
+  margin-left: auto;
+  padding-left: 110px;
+}
+.logo-wrapper {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  display: block;
+  position: absolute;
+  top: -15px;
+}
+.logo-wrapper:hover {
+  opacity: 0.80;
+}
+.logo-wrapper:active {
+  opacity: 0.60;
+}
+.adres-list__item:nth-child(1)::before {
+  background-image: url("../images/phoneicon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  content: "";
+}
+.list-item__link:hover {
+  color: #ffbd54;
+}
+.list-item__link:active {
+  color: var(--main-text-color);
+  opacity: 0.60;
+}
+.adres-list__item:nth-child(2)::before {
+  background-image: url("../images/ellipse.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 22px;
+  content: "";
+}
+.adres-list__item:nth-child(3)::before {
+  background-image: url("../images/ellipse.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 22px;
+  content: "";
+}
+
+.adres-list__item:nth-child(3) {
+  margin-right: 0;
+}
+
+.header-adres__link {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: var(--main-text-color);
+  font-size: 14px;
+  font-weight: var(--main-font-weight);
+}
+.header-adres__time {
+  margin-left: auto;
+}
+.time-item::before {
+  background-image: url("../images/scheduleicon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 25px;
+  content: "";
+}
+.time-item {
+  margin-right: 17px;
+}
+.inner-list {
+  @include unstyled-list;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 125px;
+}
+.header-end__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-inner {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 19px;
+  background-color: #fff;
+  border-top: 2px solid #f9f8f8;
+  border-bottom: 2px solid #f9f8f8;
+  z-index: 1;
+}
+.header-inner__images {
+  position: absolute;
+  z-index: 2;
+}
+.inner-list__item {
+  margin-right: 55px;
+}
+.inner-list__item:nth-child(1)::before {
+  background-image: url("../images/fishicon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  content: "";
+}
+.inner-list__item:nth-child(6) {
+  margin-right: 0;
+}
+.inner-list__link {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: var(--main-text-color);
+  font-size: 16px;
+  font-weight: var(--main-font-weight);
+}
+.inner-list__link:hover {
+  border-bottom: 4px solid #f0ff82;
+}
+.inner-list__link:active {
+  border-bottom: 4px solid #f0ff82;
+  opacity: 0.6;
+}
+.header-inner__link {
+  border-bottom: 4px solid transparent;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: var(--main-text-color);
+  font-size: 16px;
+  font-weight: var(--main-font-weight);
+}
+.header-inner__link:hover {
+  border-bottom: 4px solid #f0ff82;
+}
+.header-inner__link:active {
+  border-bottom: 4px solid #f0ff82;
+  opacity: 0.60;
+}
+
+.header-inner__link::before {
+  background-image: url("../images/peticon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 30px;
+  content: "";
+}
